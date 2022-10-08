@@ -1,0 +1,32 @@
+From 1ec2c061308658ee1dc3f69342a1391edba4382e Mon Sep 17 00:00:00 2001
+From: mdeharo <mariano.deharo7571@gmail.com>
+Date: Fri, 7 Oct 2022 22:40:51 -0500
+Subject: [PATCH] Primer comit parche 1
+
+---
+ parche1.patch | 13 +++++++++++++
+ 1 file changed, 13 insertions(+)
+ create mode 100644 parche1.patch
+
+diff --git a/parche1.patch b/parche1.patch
+new file mode 100644
+index 0000000..d0b1dcf
+--- /dev/null
++++ b/parche1.patch
+@@ -0,0 +1,13 @@
++diff --git a/sl.c b/sl.c
++index e549ac8..ca17fbb 100644
++--- a/sl.c
+++++ b/sl.c
++@@ -38,6 +38,8 @@
++ /* sl version 1.00 : SL runs vomiting out smoke.                             */
++ /*                                              by Toyoda Masashi 1992/12/11 */
++ 
+++/* Comentario de prueba para el parche */
+++
++ #include <curses.h>
++ #include <signal.h>
++ #include <unistd.h>
+-- 
+2.25.1
+
